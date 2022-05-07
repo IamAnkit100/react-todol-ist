@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  height: 100vh;
+  border: 1px solid red;
+  display: flex;
+  justify-content: center;
+}
+.content h2{
+  color:blue;
+  margin: 0px 0px 8px 0;
+}
+.content{
+  width: 380px;
+  height: 500px;
+  border: 2px solid blue;
+  margin-top: 30px;
+  padding:15px;
+  border-radius: 5px;background-color: #d0c2e557;
+}
+.content input{
+  width: 266px;
+  height: 37px;
+  border-radius: 5px;
+  font-size: 19px;
+  padding-left: 5px;
+  border: 1px solid blue;
+}
+.content button{
+  width: 63px;
+  height: 35px;
+  font-size: 18px;
+  margin-left: 3px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.content .lists{
+  /* border: 1px solid black; */
+  margin-top: 15px;
+  padding: 5px;
+}
+
+.content .lists ul li{
+  list-style: none;
+  font-size: 26px;
+  color: blue;
+  margin-left: 10px;
+}
+.li{
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.li-btn{
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+}
+
